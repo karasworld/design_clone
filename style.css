@@ -7,23 +7,54 @@ body{
 
 .row_header{
     height: 150px;
-    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
     top: 0;
     right: 0;
-    left: 0;
-        
+    left: 0;        
+}
+
+.row_header{
+    font-size:18px;
+}
+
+.row_books:hover{
+    color: rgb(212, 212, 212);
+    transition-duration: .5s;
+}
+
+.row_podcast:hover{
+    color: rgb(212, 212, 212);
+    transition-duration: .5s;
+}
+
+.row_workshop:hover{
+    color: rgb(212, 212, 212);
+    transition-duration: .5s;
+}
+
+.row_books{
+    font-size:14px;
+}
+
+.row_podcast{
+    font-size:14px;
+}
+
+.row_workshop{
+    font-size:14px;
 }
 
 .row_subscribe {
     font-size: 16px;
-    background-color: black;
+    background-color: #0828CC;
     padding: 10px 25px;
     border: solid white 2px;
     border-radius: 50px;
+    text-decoration: none;
+    color:white;
 }
 
 .box_main {
@@ -37,6 +68,13 @@ body{
 
 .box_center{
     font-size: 65px;
+}
+
+.explore:hover{
+    background-color: #0828CC;
+    color: white;
+    border: solid white 1px;
+    transition-duration: .5s;
 }
 
 #box-pitch{
@@ -67,10 +105,18 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border-radius:50px;
+    text-decoration: none;
+    color:#0828CC;
+}
+
+button:hover{
+    background-color: white;
+    color: #0828CC;
+    transition-duration: .5s;
 }
 
 .round_1 {
-    background-color: black;
+    background-color:#0828CC;
     position: absolute;
     bottom: 160px;
     right: 50px;
@@ -78,10 +124,12 @@ body{
     width: 40px;
     border: solid white 1px;
     border-radius: 50%;
+    text-decoration: none;
+    color:white;
 }
 
 .round_2 {
-    background-color: black;
+    background-color:#0828CC;
     position: absolute;
     bottom: 110px;
     right: 50px;
@@ -89,10 +137,12 @@ body{
     width: 40px;
     border: solid white 1px;
     border-radius: 50%;
+    text-decoration: none;
+    color:white;
 }
 
 .round_3 {
-    background-color: black;
+    background-color:#0828CC;
     position: absolute;
     bottom: 60px;
     right: 50px;
@@ -100,10 +150,12 @@ body{
     width: 40px;
     border: solid white 1px;
     border-radius: 50%;
+    text-decoration: none;
+    color:white;
 }
 
 .round_4 {
-    background-color: black;
+    background-color:#0828CC;
     position: absolute;
     bottom: 10px;
     right: 50px;
@@ -111,6 +163,8 @@ body{
     width: 40px;
     border: solid white 1px;
     border-radius: 50%;
+    text-decoration: none;
+    color:white;
 }
 
 .sideways{
